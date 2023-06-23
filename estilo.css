@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background: white;
+}
+/*header - cabeçalho do site*/
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+#logo {
+    width: 200px;
+}
+.menu ul li{
+        display: inline;
+}
+/*seções*/
+#banner-principal {
+    width: 100%;
+}
+.containier {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background: #ffff;
+}
+
+.conteudo{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ align-items: center;
+ max-width: 20%;
+}
+.banner {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 40%;
+}
+#video{
+ background-color:rgba(135,200,120,1); 
+ display: flex;  
+ justify-content: center;
+ align-items: center;
+ height: 500px;
+ border-botton: 3px solid orange;
+}
+#video > .containier > img{
+   height: 315px;
+
+}
+
+/*RODAPE*/
+ footer{
+    text-align: center;
+    padding: 20px;
+ }    
+footer > P > a{
+  text-decoration: none;
+  color: black;  
+}
